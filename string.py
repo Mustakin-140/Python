@@ -23,3 +23,17 @@ print(city.index("gram"))
 
 course = "System Design"
 print(course.replace("System","Database"))
+
+
+#Slicing string
+country = "Bangladesh"
+print(country[3:7])
+
+#slice from start
+print(country[:5])
+
+#slice to the end
+print(country[5:])
+
+#negative slicing
+print(country[-5:-2])
